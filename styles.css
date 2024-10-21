@@ -1,32 +1,37 @@
 /*  your css code here. If applicable */
 .hero{
 	display:flex;
-		justify-content:space-between;
+	justify-content:space-between;
 	align-item:center;
 	padding:5px;
-	border:2px solid black;
+	border-radius:10px;
+	background-color:#D2EBF2;
 }
 
 img{
 	width:350px;
 	height:200px;
 	object-fit:cover;
+	border-radius:10px;
+	border:1px solid red;
 }
 
 p{
-	font-size:10px;
+	font-size:13px;
 	text-align:center;
 }
 
 h1{
 	text-align:center;
+	font-size:17px;
 }
 
 button{
 	padding:5px;
-	background-color:orange;
+	background-color:red;
 	color:white;
 	border-radius:10px;
+	border:2px solid #99CEE4;
 }
 
 .div2{
